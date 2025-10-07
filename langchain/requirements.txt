@@ -17,6 +17,7 @@ huggingface-hub
 
 python-dotenv
 streamlit
+pydantic
 
 numpy
 scikit-learn
