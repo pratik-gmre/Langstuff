@@ -57,3 +57,6 @@ branch_chain = RunnableBranch(
 chain = classifier_chain | branch_chain
 result = chain.invoke({'feedback':'This is a terrible  product'})
 print(result)
+
+
+# chain.get_graph().print_ascii()
