@@ -2,6 +2,7 @@ from langgraph.graph import StateGraph, START, END
 from typing import TypedDict, Annotated
 from dotenv import load_dotenv
 
+
 load_dotenv()
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import BaseMessage
